@@ -1,0 +1,4345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HarrisCafe</class>
+ <widget class="QMainWindow" name="HarrisCafe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1334</width>
+    <height>784</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HarrisCafe</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidgetF">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1314</width>
+      <height>725</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 201, 94);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page0_WelcomePage">
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <widget class="QLabel" name="labelWelcome">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>80</y>
+        <width>881</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>60</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Welcome to Harris Cafe</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_startOrderToPage1">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>560</y>
+        <width>351</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Start Order</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Terminate">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>690</y>
+        <width>21</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 201, 84);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="welcomePics">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>260</y>
+        <width>581</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_aboutUs">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>560</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 130);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>About us</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelWelcome_2">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>190</y>
+        <width>581</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>28</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Glad you could make it!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>1110</x>
+        <y>400</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>make me red</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>400</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>make me green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page1_CoffeeMenu">
+     <widget class="QPushButton" name="pushButton_backToWelcomeMenu_1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>620</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Cancel Order</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_coffeeToCart">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>620</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>View Cart</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>590</y>
+        <width>1281</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>0</y>
+        <width>20</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_startOrderToPage1_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(226, 143, 49);</string>
+      </property>
+      <property name="text">
+       <string>Coffee</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_coffeeMenuToTeaMenu">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(170, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Tea</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_coffeeMenuToDessertMenu">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(170, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Dessert</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget_Coffee">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>1021</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 179, 73);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="CoffeeMain">
+       <widget class="QPushButton" name="pushButton_coffeeTo5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Spiked Irish Cream Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeTo1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Mocha Coffee</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeTo4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Harris Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeTo3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Matcha Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeTo2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Latte</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee1_MochaCoffee">
+       <widget class="QPushButton" name="pushButton_coffee1to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Spiked Irish Cream Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_30">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Mocha Coffee</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee1to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Harris Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee1to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Matcha Latte</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Our house made Colombian blend coffee with cacao with milk cream foam. Our coffee can serve cold or hot.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee1to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee1oCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee2_chaiLatte">
+       <widget class="QPushButton" name="pushButton_coffee2to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Spiked Irish Cream Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee2to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Mocha Coffee</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee2to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Harris Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee2to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Matcha Latte</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Our house blend with chai with oat milk, can be serve cold or hot.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_38">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Chai Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee2toCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee3_matchaLatte">
+       <widget class="QPushButton" name="pushButton_coffee3to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Spiked Irish Cream Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee3to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Mocha Coffee</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee3to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Harris Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_42">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Matcha Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee3to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee3ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Our premium in house matcha, serve with oat milk, can be made cold or hot.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee4_HarrisLatte">
+       <widget class="QPushButton" name="pushButton_coffee4to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Spiked Irish Cream Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee4to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Mocha Coffee</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_46">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Harris Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee4to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Matcha Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee4to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee4ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Our house signature blend coffee serve with whole milk, can be made cold or hot. It's good! Really good!</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee5_spikedLatte">
+       <widget class="QPushButton" name="pushButton_coffeeToModify_49">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Spiked Irish Cream Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee5to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Mocha Coffee</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee5to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Harris Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee5to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Matcha Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee5to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Latte</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffee5ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Our in-house special coffee beans blend with bailey’s Irish cream serve with whole milk, can be serve hot or cold.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page2_TeaMenu">
+     <widget class="QPushButton" name="pushButton_teaMenuToCoffeeMenu">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(170, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Coffee</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_3">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>0</y>
+        <width>20</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_teaToCart">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>620</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>View Cart</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_startOrderToPage1_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(226, 143, 49);</string>
+      </property>
+      <property name="text">
+       <string>Tea</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>590</y>
+        <width>1281</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_backToWelcomeMenu_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>620</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Cancel Order</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_teaMenuToDessertMenu">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(170, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Dessert</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget_Tea">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>1021</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(205, 209, 73);</string>
+      </property>
+      <property name="currentIndex">
+       <number>5</number>
+      </property>
+      <widget class="QWidget" name="CoffeeMain_2">
+       <widget class="QPushButton" name="pushButton_teaTo5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>English Earl Grey Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_teaTo1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Jasmine Green Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_teaTo4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Orange Mint Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_teaTo3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_teaTo2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Hibiscus Tea</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee1_MochaCoffee_2">
+       <widget class="QPushButton" name="pushButton_tea1to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>English Earl Grey Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_31">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Jasmine Green Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea1to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Orange Mint Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea1to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea1to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Hibiscus Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea1ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Organic Jasmine Tea leaves soaked and brew for 12 hours, giving it everlasting aroma can be serve hot or cold.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee2_chaiLatte_2">
+       <widget class="QPushButton" name="pushButton_tea2to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>English Earl Grey Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea2to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Jasmine Green Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea2to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Orange Mint Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea2to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_39">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Hibiscus Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea2ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="lineWidth">
+         <number>2</number>
+        </property>
+        <property name="text">
+         <string>Organic hibiscus leaves soaked with green tea and brew for 12 hours, giving it a tangy and refreshing taste, can be serve cold or hot.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee3_matchaLatte_2">
+       <widget class="QPushButton" name="pushButton_tea3to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>English Earl Grey Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea3to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Jasmine Green Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea3to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Orange Mint Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_43">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Chai Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea3to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Hibiscus Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea3ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Our in-house blends of herbs and spices serve with whole milk, can be serve hot or cold.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee4_HarrisLatte_2">
+       <widget class="QPushButton" name="pushButton_tea4to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>English Earl Grey Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea4to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Jasmine Green Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_47">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Orange Mint Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea4to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea4to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Hibiscus Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea4ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Our sundried organic orange peel with organic mint leaves soaked with green tea and brewed for 12 hours, the perfect balance of fruity citrus and mint perfect for the cold weather, can be serve hot or cold.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee5_spikedLatte_2">
+       <widget class="QPushButton" name="pushButton_coffeeToModify_50">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>English Earl Grey Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea5to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Jasmine Green Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea5to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Orange Mint Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea5to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Chai Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea5to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Hibiscus Tea</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_tea5ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Organic Black Tea with bergamot orange serve with or without whole milk, gives the balance of creaminess. Can be serve hot or cold.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page3_DessertMenu">
+     <widget class="Line" name="line_5">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>0</y>
+        <width>20</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_dessertMenuToCoffeeMenu">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(170, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Coffee</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_dessertToCart">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>620</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>View Cart</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>590</y>
+        <width>1281</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_backToWelcomeMenu_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>620</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Cancel Order</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_startOrderToPage1_17">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(226, 143, 49);</string>
+      </property>
+      <property name="text">
+       <string>Dessert</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_dessertMenuToTeaMenu">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(170, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Tea</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget_Dessert">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>1021</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(205, 209, 173);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="CoffeeMain_3">
+       <widget class="QPushButton" name="pushButton_dessertTo5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Oasis Strawberry Load</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessertTo1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Tiramisu</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessertTo4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Guava Cheesecake</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessertTo3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Lamington</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessertTo2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Churros</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee1_MochaCoffee_3">
+       <widget class="QPushButton" name="pushButton_dessert1to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Oasis Strawberry Load</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_32">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Tiramisu</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert1to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Guava Cheesecake</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert1to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Lamington</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert1to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Churros</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert1ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Caffeine lover fave!! Our house made coffee flavored Italian cake dipped in coffee, layered with mascarpone cheese, and dusted with cocoa. 1 slice per order.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee2_chaiLatte_3">
+       <widget class="QPushButton" name="pushButton_dessert2to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Oasis Strawberry Load</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert2to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Tiramisu</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert2to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Guava Cheesecake</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert2to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Lamington</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_40">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Churros</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert2ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_42">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Freshly house-made dough deep fried into ¼ inches rolled in cinnamon sugar serve with a chocolate dip. 4 servings per order.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee3_matchaLatte_3">
+       <widget class="QPushButton" name="pushButton_dessert3to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Oasis Strawberry Load</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert3to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Tiramisu</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert3to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Guava Cheesecake</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Lamington</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert3to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Churros</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert3ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_44">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>House-made mini squared butter cake rolled in imported Australian chocolate with pavlova and peach melba. 2 servings per order.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee4_HarrisLatte_3">
+       <widget class="QPushButton" name="pushButton_dessert4to5">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Oasis Strawberry Load</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert4to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Tiramisu</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_coffeeToModify_48">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Guava Cheesecake</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert4to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Lamington</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert4to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Churros</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert4ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_46">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>In-house Guava relish, simmer and reduced on top of Basque cheesecake. The perfect combination of sweet, tangy and creaminess. 1 slice per order.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="coffee5_spikedLatte_3">
+       <widget class="QPushButton" name="pushButton_coffeeToModify_51">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(226, 143, 49);</string>
+        </property>
+        <property name="text">
+         <string>Oasis Strawberry Load</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert5to1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Tiramisu</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert5to4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Guava Cheesecake</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert5to3">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Lamington</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert5to2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>10</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Churros</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_dessert5ToCart">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Add to Cart</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_48">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>961</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bernard MT Condensed</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>In-house organic strawberries jam and cream layered with strawberry cake, the perfect balance of sweet citrus and creaminess. 1 slice per order.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page4_ModifyOrder">
+     <widget class="Line" name="line_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>590</y>
+        <width>1281</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_backToWelcomeMenu_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>620</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Cancel Order</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_modifyToMenu">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>620</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Order More</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_modifyToCart">
+      <property name="geometry">
+       <rect>
+        <x>1050</x>
+        <y>620</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Complete Order</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="modifyWidget">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>861</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 179, 0);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page5_viewCart">
+     <widget class="Line" name="line_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>590</y>
+        <width>1281</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_backToWelcomeMenu_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>620</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Cancel Order</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cartToLoyalty">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>620</y>
+        <width>341</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Proceed to Checkout</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_viewCartToMenu">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>620</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Order More</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="cartWidget">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>861</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 179, 0);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_124">
+      <property name="geometry">
+       <rect>
+        <x>978</x>
+        <y>430</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 179, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Total</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cartTotal">
+      <property name="geometry">
+       <rect>
+        <x>980</x>
+        <y>480</y>
+        <width>301</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 179, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_modifyToDeleteItem">
+      <property name="geometry">
+       <rect>
+        <x>980</x>
+        <y>40</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Delete Item</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page6_Loyalty">
+     <widget class="Line" name="line_9">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>0</y>
+        <width>20</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>470</y>
+        <width>271</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 201, 114);
+border-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter loyalty number (xxxxxxxxxx)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>130</y>
+        <width>351</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Are you part of the</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>200</y>
+        <width>531</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>60</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>&quot;Harris County&quot;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>290</y>
+        <width>411</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Loyalty Program?</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>400</y>
+        <width>411</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Glad you are wondering that!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="Line" name="line_10">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>480</y>
+        <width>631</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>20</y>
+        <width>571</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>32</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Would you like to sign up today?</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>100</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Our deals are good!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>150</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>It's really good!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_loyaltySignUp">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>280</y>
+        <width>591</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Sign up for &quot;Harris County&quot; Loyalty Program</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_toPayment_1">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>570</y>
+        <width>591</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Checkout without &quot;Harris County&quot; Loyalty</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page7_LoyaltySignUp">
+     <widget class="QPushButton" name="pushButton_toPayment3">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>620</y>
+        <width>721</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Confirm Sign Up and Proceed to Checkout</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_41">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>590</y>
+        <width>1281</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_toPayment_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>620</y>
+        <width>521</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(50, 200, 50);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Cancel Sign Up and Proceed to Checkout</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page8_Payment">
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>130</y>
+        <width>221</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Your total is</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_42">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>0</y>
+        <width>20</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>130</y>
+        <width>501</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Choose Method of Payment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_debitToThanks">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>210</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Debit</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_creditToThanks">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>280</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Credit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>350</y>
+        <width>451</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>We accept Visa, Mastercard, Discover, American Express</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="finalTotal">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>210</y>
+        <width>501</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page9_ThankYou">
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>70</y>
+        <width>1041</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Thank you! Your order will be out shortly!</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_completeOrder">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>470</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Got it!</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page10_AboutUs">
+     <widget class="QLabel" name="aboutUs">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>40</y>
+        <width>1231</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(79, 37, 1);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>So, you like to know more about Harris Café? 
+
+We are glad you’re wondering that!
+
+Harris Café is founded by the group consisting of Fardin, Nahian, Jose, Billy, and Tina. 
+
+Our inspiration came from one day, us 5 has been in Professor Harris’s lecture. Professor Harris has been very passionate about his teaching and often he will do or say things which will eventually become unintentional memes among us and other class members.
+
+One day, we stumble across Professor Harris for his love for coffee as he pulls into a parking lot of a local coffee shop in his brand-new BMW Z4 which a student of his gave him to make an “A” in his class.
+
+At that moment, his love for coffee has become apparent. 
+
+Due to Harris’s popularity of which he is unaware of, and his exceptional skills to make students into the best programmers in today’s market, we have decided to create a coffee shop in contribution to him.
+
+Just like his quality of teaching, the quality of our coffee is impeccable. You should try it for yourself, and after the first sip you will be telling yourself and others around you…..
+
+This is good! It’s really good!
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_startOrderToPage1_3">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>640</y>
+        <width>351</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bernard MT Condensed</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Start Order</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1334</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
